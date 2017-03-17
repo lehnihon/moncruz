@@ -24,11 +24,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   src: url(font/tt0142m_.ttf); }
 #page {
   font-family: Verdana, Geneva, sans-serif;
-  color: #373737;
+  color: #282828;
   text-align: center;
   background-color: white; }
   #page a {
-    color: #373737; }
+    color: #282828; }
   #page a:actice {
     border-bottom: 0;
     text-decoration: none; }
@@ -166,7 +166,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       background-color: #b70456;
       color: white; }
   #page nav#redes {
-    padding: 10px 0; }
+    padding: 10px 0;
+    background-color: #e5e5e5; }
     #page nav#redes ul.redes_sociais_header {
       height: 28px;
       text-align: right;
@@ -177,60 +178,57 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       filter: alpha(opacity=60);
       /* For IE8 and earlier */ }
     #page nav#redes ul.redes_sociais_header li {
-      margin-right: 5px; }
+      margin-right: 0px; }
     #page nav#redes ul.redes_sociais_header a {
       display: inline-block;
-      width: 28px;
+      width: 24px;
       height: 28px; }
     #page nav#redes ul.redes_sociais_header .youtube {
-      background-image: url("images/redes-top.png");
+      background-image: url("images/redes-sociais.jpg");
       background-position: left,center;
       background-repeat: no-repeat;
-      width: 28px;
+      width: 24px;
       height: 28px;
       display: inline-block; }
     #page nav#redes ul.redes_sociais_header .instagram {
-      background-image: url("images/redes-top.png");
-      background-position: -35px,center;
+      background-image: url("images/redes-sociais.jpg");
+      background-position: -25px,center;
       background-repeat: no-repeat;
-      width: 28px;
+      width: 24px;
       height: 28px;
       display: inline-block; }
     #page nav#redes ul.redes_sociais_header .twitter {
-      background-image: url("images/redes-top.png");
-      background-position: -70px,center;
+      background-image: url("images/redes-sociais.jpg");
+      background-position: -51px,center;
       background-repeat: no-repeat;
-      width: 28px;
+      width: 24px;
       height: 28px;
       display: inline-block; }
     #page nav#redes ul.redes_sociais_header .facebook {
-      background-image: url("images/redes-top.png");
-      background-position: -106px,center;
+      background-image: url("images/redes-sociais.jpg");
+      background-position: -78px,center;
       background-repeat: no-repeat;
-      width: 28px;
+      width: 24px;
       height: 28px;
       display: inline-block; }
   #page nav#principal {
-    padding: 25px 0;
+    padding: 15px 0;
     position: absolute;
     right: 0;
     left: 0;
     z-index: 1010;
-    background-color: #514aa3; }
+    background-color: #FFF; }
     #page nav#principal div.menu-header {
-      margin-top: 15px; }
+      margin-top: 40px; }
       #page nav#principal div.menu-header div.menu-op {
         float: right;
         margin-left: 35px; }
         #page nav#principal div.menu-header div.menu-op a {
-          color: white;
-          font-weight: bold;
           padding-bottom: 8px;
           font-size: 13px;
-          border-color: #514aa3; }
+          border-color: #FFF; }
         #page nav#principal div.menu-header div.menu-op a:hover {
-          border-bottom: 2px solid white;
-          border-color: white;
+          border-bottom: 2px solid #519d7f;
           -webkit-transition: border-color 1s linear;
           /* Saf3.2+, Chrome */
           -moz-transition: border-color 1s linear;
@@ -242,15 +240,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           margin-right: 5px;
           vertical-align: baseline; }
       #page nav#principal div.menu-header .criar-conta {
-        background-color: #514aa3;
+        background-color: #FFFFFF;
         -webkit-border-radius: 6px;
         -moz-border-radius: 6px;
         border-radius: 6px;
-        border: 1px solid white;
-        border-color: #FFFFFF !important;
+        border: 1px solid #282828;
+        border-color: #282828 !important;
         padding: 10px !important; }
       #page nav#principal div.menu-header .criar-conta:hover {
-        border-bottom: 1px solid white !important;
+        border-bottom: 1px solid #282828 !important;
         -webkit-transition: background-color 1s linear !important;
         /* Saf3.2+, Chrome */
         -moz-transition: background-color 1s linear !important;
@@ -258,7 +256,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         -o-transition: background-color 1s linear !important;
         /* Opera 10.5 */
         transition: background-color 1s linear !important;
-        background-color: #8580be !important; }
+        background-color: #519d7f !important;
+        color: #FFF !important; }
   #page nav.fixar {
     padding: 15px 0 !important;
     position: fixed !important;
@@ -488,28 +487,105 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div#content section#atelie div.col-md-4 {
       margin-bottom: 25px; } }
   #page #footer {
-    text-align: left; }
-    #page #footer div.footer-content {
-      padding: 50px 0;
-      background-color: #1d3f98;
+    padding: 50px 0;
+    background-color: #127cc1; }
+    #page #footer .row {
+      margin-bottom: 50px; }
+    #page #footer .row:last-child {
+      margin-bottom: 0; }
+    #page #footer h2, #page #footer h5 {
+      color: #FFFFFF; }
+    #page #footer h2 {
+      margin-bottom: 15px; }
+    #page #footer ul.redes_sociais_header {
+      height: 28px;
+      list-style: none;
+      margin: 0;
+      padding: 0px; }
+    #page #footer ul.redes_sociais_header li:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */ }
+    #page #footer ul.redes_sociais_header li {
+      margin-right: 5px; }
+    #page #footer ul.redes_sociais_header a {
+      display: inline-block;
+      width: 28px;
+      height: 28px; }
+    #page #footer ul.redes_sociais_header .youtube {
+      background-image: url("images/redes-sociais.jpg");
+      background-position: left,center;
+      background-repeat: no-repeat;
+      width: 28px;
+      height: 28px;
+      display: inline-block; }
+    #page #footer ul.redes_sociais_header .instagram {
+      background-image: url("images/redes-sociais.jpg");
+      background-position: -35px,center;
+      background-repeat: no-repeat;
+      width: 28px;
+      height: 28px;
+      display: inline-block; }
+    #page #footer ul.redes_sociais_header .twitter {
+      background-image: url("images/redes-sociais.jpg");
+      background-position: -70px,center;
+      background-repeat: no-repeat;
+      width: 28px;
+      height: 28px;
+      display: inline-block; }
+    #page #footer ul.redes_sociais_header .facebook {
+      background-image: url("images/redes-sociais.jpg");
+      background-position: -106px,center;
+      background-repeat: no-repeat;
+      width: 28px;
+      height: 28px;
+      display: inline-block; }
+    #page #footer .fot-sobre {
+      padding: 15px 25px;
+      padding-right: 5px;
+      padding-bottom: 25px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #FFFFFF;
+      background-image: url("images/seta.jpg");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      display: inline-block; }
+    #page #footer .fot-sobre:hover {
+      color: #514aa3;
+      -webkit-transition: color 0.5s linear;
+      /* Saf3.2+, Chrome */
+      -moz-transition: color 0.5s linear;
+      /* FF3.7+ */
+      -o-transition: color 0.5s linear;
+      /* Opera 10.5 */
+      transition: color 0.5s linear; }
+    #page #footer .menu-footer {
+      display: inline-block; }
+      #page #footer .menu-footer div.menu-op {
+        float: left; }
+        #page #footer .menu-footer div.menu-op a {
+          color: white;
+          padding-bottom: 8px;
+          font-size: 13px;
+          padding: 20px; }
+        #page #footer .menu-footer div.menu-op a:hover {
+          color: #514aa3;
+          -webkit-transition: color 0.5s linear;
+          /* Saf3.2+, Chrome */
+          -moz-transition: color 0.5s linear;
+          /* FF3.7+ */
+          -o-transition: color 0.5s linear;
+          /* Opera 10.5 */
+          transition: color 0.5s linear; }
+  #page #copy {
+    padding: 10px 0;
+    background-color: #0c69a6; }
+    #page #copy .copy-text, #page #copy span {
+      font-size: 12px;
       color: white; }
-      #page #footer div.footer-content ul {
-        padding: 0;
-        margin: 0;
-        list-style-type: none; }
-        #page #footer div.footer-content ul a {
-          color: #FFFFFF; }
-        #page #footer div.footer-content ul a:hover {
-          color: #fff40e; }
-    #page #footer div.copyrino {
-      text-align: center;
-      color: #606060;
-      background-color: #f6f8fb;
-      padding: 20px 0; }
-      #page #footer div.copyrino a {
-        color: #606060; }
-      #page #footer div.copyrino a:hover {
-        color: #bfbfbf; }
+    #page #copy .text-footer {
+      padding-top: 5px; }
 
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);

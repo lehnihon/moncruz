@@ -1,5 +1,6 @@
 nav#redes{
     padding:10px 0;
+    background-color:#e5e5e5;
 
     ul.redes_sociais_header{
         height: 28px;
@@ -14,77 +15,75 @@ nav#redes{
     }
 
     ul.redes_sociais_header li{
-        margin-right: 5px;
+        margin-right: 0px;
     }
 
     ul.redes_sociais_header a{
         display: inline-block;
-        width:28px;
+        width:24px;
         height:28px;
     }
 
     ul.redes_sociais_header .youtube{
-        background-image: url("images/redes-top.png");
+        background-image: url("images/redes-sociais.jpg");
 
         background-position: left,center;
         background-repeat:no-repeat;
-        width:28px;
+        width:24px;
         height:28px;
         display:inline-block;       
     }
 
     ul.redes_sociais_header .instagram{
-        background-image: url("images/redes-top.png");
-        background-position: -35px,center;
+        background-image: url("images/redes-sociais.jpg");
+        background-position: -25px,center;
         background-repeat:no-repeat;
-        width:28px;
+        width:24px;
         height:28px;
         display:inline-block;       
     }
 
     ul.redes_sociais_header .twitter{
-        background-image: url("images/redes-top.png");
-        background-position: -70px,center;
+        background-image: url("images/redes-sociais.jpg");
+        background-position: -51px,center;
         background-repeat:no-repeat;
-        width:28px;
+        width:24px;
         height:28px;
         display:inline-block;       
     }
 
     ul.redes_sociais_header .facebook{
-        background-image: url("images/redes-top.png");
-        background-position: -106px,center;
+        background-image: url("images/redes-sociais.jpg");
+        background-position: -78px,center;
         background-repeat:no-repeat;
-        width:28px;
+        width:24px;
         height:28px;
         display:inline-block;       
     }
 }
 
 nav#principal{
-    padding:25px 0;
+    padding:15px 0;
     position: absolute;
     right: 0;
     left: 0;
     z-index: 1010;
-    background-color:#514aa3;
+    background-color:#FFF;
 
     div.menu-header{
-        margin-top: 15px;
+        margin-top: 40px;
 
         div.menu-op{
             float:right;
             margin-left: 35px;
             a{
-                color:white;
-                font-weight: bold;
                 padding-bottom:8px;
                 font-size:13px;
-                border-color:#514aa3;
+                border-color:#FFF;
             }
             a:hover{
-                border-bottom:2px solid white;
-                border-color:white;
+                border-bottom:2px solid #519d7f;
+
                 -webkit-transition: border-color 1s linear; /* Saf3.2+, Chrome */
                 -moz-transition: border-color 1s linear; /* FF3.7+ */
                 -o-transition: border-color 1s linear; /* Opera 10.5 */
@@ -97,22 +96,22 @@ nav#principal{
             }
         }
         .criar-conta{
-            background-color: #514aa3;
+            background-color: #FFFFFF;
 			-webkit-border-radius: 6px; 
 			-moz-border-radius: 6px; 
 			border-radius: 6px;
-			border:1px solid white;
-            border-color: #FFFFFF !important;
+			border:1px solid #282828;
+            border-color: #282828 !important;
 			padding:10px !important;        	
 	    }
 	    .criar-conta:hover{
-	    	
-	    	border-bottom:1px solid white !important;
+	    	border-bottom:1px solid #282828 !important;
             -webkit-transition: background-color 1s linear !important; /* Saf3.2+, Chrome */
             -moz-transition: background-color 1s linear !important; /* FF3.7+ */
             -o-transition: background-color 1s linear !important; /* Opera 10.5 */
             transition: background-color 1s linear !important;
-            background-color: #8580be !important;
+            background-color: #519d7f !important;
+            color:#FFF !important;
 	    }
 
     }		
