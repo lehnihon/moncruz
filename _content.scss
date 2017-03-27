@@ -10,7 +10,6 @@ div#content{
 
 	section#banner{
 		padding:40px 0;
-		background-color:#f6f8fb;
 	}
 
 	section#atelie-menu{
@@ -84,23 +83,48 @@ div#content{
 	}
 
 	section#servicos{
-		background-color:#59a9da;
-		padding:80px 0;
-		color:white;
+		text-align:left;
+		background-color:#f6f8fb;
 
-		h4,p{
+		h4{
 			margin: 15px 0;
+			font-weight:bold;
 		}
 
-		img{
-			border:10px solid #FFFFFF;
+		h4,a{
+			margin-left:20px;
 		}
-	
+
+		a.link{
+			color:#519d7f;
+		}
+
+		a.link:hover{
+			color:#9ccfbb;
+		}
+
+		.col-md-4{
+			padding:0;
+		}
+
+		.row{
+			padding-bottom:35px;
+		}
+
+		.fundo-branco{
+			background-color:#FFF
+		}
+
+		.fundo-cinza{
+			background-color:#f6f8fb;
+			padding:35px 0;
+			text-align:center;
+		}
+
 	}
 
 	section#fotos-sobre{
-		padding-top:40px;
-		padding-bottom:80px;	
+		padding:50px 0;
 		background-color:white;
 		line-height:22px;
 
@@ -330,6 +354,13 @@ div#content{
 			div.col-md-4{
 				margin-bottom: 25px;
 			}
+		}
+	}
+
+	#servicos{
+		.col-md-4{
+			padding-left:15px !important;
+			padding-right:15px !important;
 		}
 	}
 }

@@ -50,19 +50,21 @@ new WOW().init();
 							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 						</button>
 						<ul class="dropdown-menu">
-						<li><a href="<?php echo home_url( '/' ); ?>">Home</a></li
-						><li><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></li
-						><li><a href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></li
-						><li><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Trabalhe Conosco</a></li
-						><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li>
+						<li><a href="<?php echo home_url( '/' ); ?>">Início</a></li
+						><li><a href="<?php echo home_url( '/' )."sobre"; ?>">A Moncruz</a></li
+						><li><a href="<?php echo home_url( '/' )."reformas"; ?>">Área de atuação</a></li
+						><li><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Clientes</a></li
+						>li><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Portfólio</a></li
+						><li><a href="<?php echo home_url( '/' )."contato"; ?>">Fale conosco</a></li>
 						</ul>								
 					</div>						
 					<div class="menu-header clearfix">
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Trabalhe Conosco</a></div>								
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></div>
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></div>
-						<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Home</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Fale conosco</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Portfólio</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Clientes</a></div>								
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."reformas"; ?>">Área de atuação</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">A Moncruz</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Início</a></div>
 					</div>
 				</div>					
 			</div>

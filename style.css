@@ -38,17 +38,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     margin: 0;
     margin-bottom: 20px;
-    font-size: 36px;
-    color: #1d3f98; }
+    font-size: 36px; }
   #page h1.small {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 24px;
-    font-weight: bold;
-    color: #1d3f98; }
+    font-weight: bold; }
   #page h2 {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 22px;
-    color: #1d3f98;
     margin-top: 0px;
     font-weight: bold; }
   #page h3 {
@@ -59,7 +56,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     font-weight: normal; }
   #page h4 {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 18px; }
+    font-size: 18px;
+    line-height: 26px; }
   #page h5 {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 18px;
@@ -95,12 +93,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    background-color: #1d3f98;
-    padding: 10px 45px;
+    background-color: #519d7f;
+    padding: 20px 55px;
     color: #FFF;
     display: inline-block; }
   #page .btn-confira:hover {
-    background-color: #778bc1; }
+    background-color: #9ccfbb; }
   #page .btn-azul {
     background-color: #59a9da;
     color: white; }
@@ -219,13 +217,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     z-index: 1010;
     background-color: #FFF; }
     #page nav#principal div.menu-header {
-      margin-top: 40px; }
+      margin-top: 45px; }
       #page nav#principal div.menu-header div.menu-op {
         float: right;
         margin-left: 35px; }
         #page nav#principal div.menu-header div.menu-op a {
           padding-bottom: 8px;
-          font-size: 13px;
+          font-size: 14px;
           border-color: #FFF; }
         #page nav#principal div.menu-header div.menu-op a:hover {
           border-bottom: 2px solid #519d7f;
@@ -286,8 +284,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page div#content section#servicos-detalhes {
     padding-top: 40px; }
   #page div#content section#banner {
-    padding: 40px 0;
-    background-color: #f6f8fb; }
+    padding: 40px 0; }
   #page div#content section#atelie-menu {
     margin-bottom: 100px; }
     #page div#content section#atelie-menu ul.btn-atelie {
@@ -331,16 +328,29 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div#content section#categorias-detalhe img {
       margin: 25px 0; }
   #page div#content section#servicos {
-    background-color: #59a9da;
-    padding: 80px 0;
-    color: white; }
-    #page div#content section#servicos h4, #page div#content section#servicos p {
-      margin: 15px 0; }
-    #page div#content section#servicos img {
-      border: 10px solid #FFFFFF; }
+    text-align: left;
+    background-color: #f6f8fb; }
+    #page div#content section#servicos h4 {
+      margin: 15px 0;
+      font-weight: bold; }
+    #page div#content section#servicos h4, #page div#content section#servicos a {
+      margin-left: 20px; }
+    #page div#content section#servicos a.link {
+      color: #519d7f; }
+    #page div#content section#servicos a.link:hover {
+      color: #9ccfbb; }
+    #page div#content section#servicos .col-md-4 {
+      padding: 0; }
+    #page div#content section#servicos .row {
+      padding-bottom: 35px; }
+    #page div#content section#servicos .fundo-branco {
+      background-color: #FFF; }
+    #page div#content section#servicos .fundo-cinza {
+      background-color: #f6f8fb;
+      padding: 35px 0;
+      text-align: center; }
   #page div#content section#fotos-sobre {
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding: 50px 0;
     background-color: white;
     line-height: 22px; }
     #page div#content section#fotos-sobre h2 {
@@ -485,15 +495,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 100%;
       margin-bottom: 10px; }
     #page div#content section#atelie div.col-md-4 {
-      margin-bottom: 25px; } }
+      margin-bottom: 25px; }
+    #page #servicos .col-md-4 {
+      padding-left: 15px !important;
+      padding-right: 15px !important; } }
   #page #footer {
     padding: 50px 0;
-    background-color: #127cc1; }
+    background-color: #529d7f; }
     #page #footer .row {
       margin-bottom: 50px; }
     #page #footer .row:last-child {
       margin-bottom: 0; }
-    #page #footer h2, #page #footer h5 {
+    #page #footer h2, #page #footer p {
       color: #FFFFFF; }
     #page #footer h2 {
       margin-bottom: 15px; }
@@ -513,28 +526,28 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 28px;
       height: 28px; }
     #page #footer ul.redes_sociais_header .youtube {
-      background-image: url("images/redes-sociais.jpg");
+      background-image: url("images/redes-bot.jpg");
       background-position: left,center;
       background-repeat: no-repeat;
       width: 28px;
       height: 28px;
       display: inline-block; }
     #page #footer ul.redes_sociais_header .instagram {
-      background-image: url("images/redes-sociais.jpg");
+      background-image: url("images/redes-bot.jpg");
       background-position: -35px,center;
       background-repeat: no-repeat;
       width: 28px;
       height: 28px;
       display: inline-block; }
     #page #footer ul.redes_sociais_header .twitter {
-      background-image: url("images/redes-sociais.jpg");
+      background-image: url("images/redes-bot.jpg");
       background-position: -70px,center;
       background-repeat: no-repeat;
       width: 28px;
       height: 28px;
       display: inline-block; }
     #page #footer ul.redes_sociais_header .facebook {
-      background-image: url("images/redes-sociais.jpg");
+      background-image: url("images/redes-bot.jpg");
       background-position: -106px,center;
       background-repeat: no-repeat;
       width: 28px;
@@ -580,7 +593,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           transition: color 0.5s linear; }
   #page #copy {
     padding: 10px 0;
-    background-color: #0c69a6; }
+    background-color: #318d68; }
     #page #copy .copy-text, #page #copy span {
       font-size: 12px;
       color: white; }
@@ -590,6 +603,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); }
+
+.e-claro {
+  -webkit-transition: opacity 0.5s linear;
+  /* Saf3.2+, Chrome */
+  -moz-transition: opacity 0.5s linear;
+  /* FF3.7+ */
+  -o-transition: opacity 0.5s linear;
+  /* Opera 10.5 */
+  transition: opacity 0.5s linear; }
 
 .e-claro:hover {
   opacity: 0.6;
