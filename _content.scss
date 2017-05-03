@@ -1,5 +1,11 @@
 div#content{
 
+	div#breadcrumbs{
+		text-align:left;
+		padding-top:10px;
+		padding-bottom:25px;
+	}
+
 	section#sobre-home{
 		padding:80px 0;
 	}
@@ -10,6 +16,83 @@ div#content{
 
 	section#banner{
 		padding:40px 0;
+	}
+
+	section#solucoes-detalhes{
+		padding-bottom:30px;
+
+		.col-md-9{
+			padding-left:30px;
+			text-align:left;
+
+			p{
+				margin-bottom:15px;
+			}
+		}
+
+		ul.solucoes-menu{
+			list-style-type:none;
+			padding:0;
+
+			li{
+				margin-bottom:2px;
+				a{
+					display:block;
+					background-color:#519d7f;
+					color:#FFF;
+					text-align:left;
+					padding:10px 20px;
+				}
+				a:hover{
+					background-color:#368465;
+				}
+				a.ativo{
+					background-color:#368465;
+				}
+			}
+
+		}
+	}
+
+	div#quer-saber-mais{
+		padding:60px 0;
+		background-color:#f6f8fb;
+
+		.tel-botao{
+			span{
+				font-size:26px;
+				color:#368465;
+			}
+			img{
+				vertical-align:text-bottom;
+			}
+
+			.botao-conheca-amarelo{
+				background-color:#ffc709;
+				color:#368465;
+				border-radius:5px;
+				padding:15px 30px;
+				font-weight:bold;
+				display:inline-block;
+				margin-left:20px;
+			}
+			.botao-conheca-amarelo:hover{
+				background-color:#ffdd6b;
+			}
+
+			.botao-conheca{
+				background-color:#005197;
+				color:#FFF;
+				border-radius:5px;
+				padding:15px 30px;
+				font-weight:bold;
+				display:inline-block;
+				margin-left:20px;
+			}
+			.botao-conheca:hover{
+				background-color:#7fa8cb;
+			}
+		}
 	}
 
 	section#atelie-menu{

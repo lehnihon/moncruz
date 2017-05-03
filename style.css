@@ -36,18 +36,22 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     text-decoration: none; }
   #page h1 {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 36px; }
+    color: #368465;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0; }
   #page h1.small {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 24px;
-    font-weight: bold; }
+    color: #368465;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0; }
   #page h2 {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    margin-top: 0px;
-    font-weight: bold; }
+    color: #368465;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0; }
   #page h3 {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     margin: 0;
@@ -211,10 +215,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: inline-block; }
   #page nav#principal {
     padding: 15px 0;
-    position: absolute;
-    right: 0;
-    left: 0;
-    z-index: 1010;
     background-color: #FFF; }
     #page nav#principal div.menu-header {
       margin-top: 45px; }
@@ -279,12 +279,66 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: none; }
     #page ul.menu-header {
       display: block; } }
+  #page div#content div#breadcrumbs {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 25px; }
   #page div#content section#sobre-home {
     padding: 80px 0; }
   #page div#content section#servicos-detalhes {
     padding-top: 40px; }
   #page div#content section#banner {
     padding: 40px 0; }
+  #page div#content section#solucoes-detalhes {
+    padding-bottom: 30px; }
+    #page div#content section#solucoes-detalhes .col-md-9 {
+      padding-left: 30px;
+      text-align: left; }
+      #page div#content section#solucoes-detalhes .col-md-9 p {
+        margin-bottom: 15px; }
+    #page div#content section#solucoes-detalhes ul.solucoes-menu {
+      list-style-type: none;
+      padding: 0; }
+      #page div#content section#solucoes-detalhes ul.solucoes-menu li {
+        margin-bottom: 2px; }
+        #page div#content section#solucoes-detalhes ul.solucoes-menu li a {
+          display: block;
+          background-color: #519d7f;
+          color: #FFF;
+          text-align: left;
+          padding: 10px 20px; }
+        #page div#content section#solucoes-detalhes ul.solucoes-menu li a:hover {
+          background-color: #368465; }
+        #page div#content section#solucoes-detalhes ul.solucoes-menu li a.ativo {
+          background-color: #368465; }
+  #page div#content div#quer-saber-mais {
+    padding: 60px 0;
+    background-color: #f6f8fb; }
+    #page div#content div#quer-saber-mais .tel-botao span {
+      font-size: 26px;
+      color: #368465; }
+    #page div#content div#quer-saber-mais .tel-botao img {
+      vertical-align: text-bottom; }
+    #page div#content div#quer-saber-mais .tel-botao .botao-conheca-amarelo {
+      background-color: #ffc709;
+      color: #368465;
+      border-radius: 5px;
+      padding: 15px 30px;
+      font-weight: bold;
+      display: inline-block;
+      margin-left: 20px; }
+    #page div#content div#quer-saber-mais .tel-botao .botao-conheca-amarelo:hover {
+      background-color: #ffdd6b; }
+    #page div#content div#quer-saber-mais .tel-botao .botao-conheca {
+      background-color: #005197;
+      color: #FFF;
+      border-radius: 5px;
+      padding: 15px 30px;
+      font-weight: bold;
+      display: inline-block;
+      margin-left: 20px; }
+    #page div#content div#quer-saber-mais .tel-botao .botao-conheca:hover {
+      background-color: #7fa8cb; }
   #page div#content section#atelie-menu {
     margin-bottom: 100px; }
     #page div#content section#atelie-menu ul.btn-atelie {
