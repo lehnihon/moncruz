@@ -290,7 +290,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page div#content section#banner {
     padding: 40px 0; }
   #page div#content section#solucoes-detalhes {
-    padding-bottom: 30px; }
+    padding-bottom: 60px; }
     #page div#content section#solucoes-detalhes .col-md-9 {
       padding-left: 30px;
       text-align: left; }
@@ -463,19 +463,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         content: "\2713 \00a0";
         font-weight: bold; }
   #page div#content section#sobre {
-    padding-bottom: 40px; }
-    #page div#content section#sobre ul {
-      list-style-type: none;
-      margin-bottom: 20px; }
-      #page div#content section#sobre ul li {
-        margin: 15px 0px; }
-      #page div#content section#sobre ul li:before {
-        content: "\2713 \00a0";
-        font-weight: bold; }
-    #page div#content section#sobre div.fotos-sobre img {
-      float: left;
-      border: 5px solid #e5e5e5;
-      margin: 5px; }
+    padding-bottom: 60px; }
   #page div#content section#form-contato {
     padding: 25px 0;
     background-color: #f3f2e9; }

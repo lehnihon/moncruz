@@ -23,33 +23,52 @@ get_header(); ?>
 					<?php get_template_part( 'template-parts/solucoes-menu' ); ?>
 				</div>
 				<div class="col-md-9">
-					<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Entrega Expressa Data Certa Logistica.jpg"; ?>" alt="entrega-expressa"><br><br>
-					<h1>Entrega Expressa ou Emergencial</h1><br>
-
-					<p>Courier é o serviço de Entrega Expressa da Data Certa Logística, indicado para encomendas e entregas urgentes, que necessitam de máxima precisão e agilidade.
+					<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Gerenciamento-de-Obras.png"; ?>" alt="entrega-expressa"><br><br>
+					<h1>Gerenciamento de Obras</h1><br>
+					<p>
+						A <strong>Moncruz Engenharia</strong> oferece o serviço de <strong>Gerenciamento de Obras</strong>, que consiste em gerenciar a implantação do empreendimento em todos os seus aspectos, tudo para otimizar os investimentos necessários, como custos, prazos e a qualidade na implantação dos projetos de engenharia.
 					</p>
-					<p>Entrega domiciliar expressa ou emergencial nos estados de São Paulo e Rio de Janeiro.</p>
-					<p>Acompanhanhamos pessoalmente a carga do local de coleta até a porta do destinatário, tendo o embarque imediato. 
-					<br>O serviço de Courier é ideal para lojas virtuais e empresas de todos os portes.
+					<p>
+						- Equalização das diversas atividades necessárias para a execução da obra<br>
+						- Concatenar as diversas informações de todas as disciplinas de projeto<br>
+						- Representar o cliente junto aos projetistas, empreiteiros e órgãos competentes
 					</p>
 
-					<p><strong>Aplicativo Mobidata</strong>
-					Você pode monitorar em tempo real suas entregas através aplicativo Mobidata, nosso próprio aplicativo de rastreamento e monitoramento de envios.</p>
-					<p>É o serviço mais rápido de entregas expressas do mercado!</p>
-					<p>Entre em contato conosco, estamos prontos para atender sua empresa!</p>
+					<p>O <strong>Gerenciamento de Obras</strong> engloba ainda o controle de custos e o avanço físico da obra. Serão fornecidos diversos 
+					relatórios para o acompanhamento da obra como:
+					</p>
+
+					<p>
+						- Cronograma físico de Gantt<br>
+					- Rede Pert CPM<br>
+					- Cronograma financeiro<br>
+					- Relatório fotográfico<br>
+					- Medições de serviços<br>
+					- Relatório de controle de gastos<br>
+					- Relatório de provisões
+					</p>
+					
+					<p>
+						Dessa maneira, a <strong>Moncruz Engenharia</strong> acompanha a evolução da física e financeira do empreendimento, respeitando todas as
+					metas traçadas, com controle rigoroso de execução de obras.
+					</p>
+					
+					<p>
+						O <strong>Gerenciamento de Obras</strong> é feita de forma integrada e sincronizada com os esforços de todos os envolvidos no projeto. O
+					Gerenciamento de Obras é responsável pela gestão de compras, com foco na Engenharia de Custos, gerenciando equipe
+					técnica de profissionais próprios ou de terceiros.
+					</p>
+					
+					<p>
+						A Moncruz Engenharia conta com uma equipe de profissionais com grande experiência em Gerenciamento de Obras, com 
+					grande capacidade para realizar os mais diversos empreendimentos dos setores públicos e privados.
+					</p>
 					
 			</div>
 		</div>
 	</section>
 
-	<div id="quer-saber-mais">
-		<h2>Quer saber mais sobre a Data Certa Logística?</h2>
-		<h5><strong>Converse com um especialista em logística e veja como podemos te ajudar!</strong></h5><br>
-		<div class="tel-botao">
-			<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 2061-3138</span>
-			<a class="botao-conheca-amarelo" href="<?php echo home_url( '/' )."orcamento"; ?>">
-			Quero um Orçamento</a>
-		</div>
-	</div>
+	<?php get_template_part( 'template-parts/quer-saber' ); ?>
+
 </div>
 <?php get_footer(); ?>

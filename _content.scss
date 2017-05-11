@@ -19,7 +19,7 @@ div#content{
 	}
 
 	section#solucoes-detalhes{
-		padding-bottom:30px;
+		padding-bottom:60px;
 
 		.col-md-9{
 			padding-left:30px;
@@ -301,28 +301,8 @@ div#content{
 	}
 
 	section#sobre{
-		padding-bottom:40px;
+		padding-bottom:60px;
 
-		ul{
-			list-style-type:none;
-			margin-bottom: 20px;
-
-			li{
-				margin: 15px 0px;
-			}
-			li:before{
-				content: "\2713 \00a0";
-				font-weight:bold;
-			}
-		}
-
-		div.fotos-sobre{
-			img{
-				float:left;
-				border:5px solid #e5e5e5;
-				margin:5px;
-			}
-		}	
 	}
 
 	section#form-contato{

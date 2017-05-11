@@ -1,10 +1,8 @@
 <ul class="solucoes-menu">
-	<li><a href="<?php echo home_url( '/' )."transporte-de-cargas"; ?>" class="<?php if(is_page('transporte-de-cargas')): echo "ativo"; endif; ?>">Transporte de Cargas</a></li>
-	<li><a href="<?php echo home_url( '/' )."entrega-expressa"; ?>" class="<?php if(is_page('entrega-expressa')): echo "ativo"; endif; ?>">Entrega Expressa</a></li>
-	<li><a href="<?php echo home_url( '/' )."logistica-armazenagem"; ?>" class="<?php if(is_page('logistica-armazenagem')): echo "ativo"; endif; ?>">Armazenagem</a></li>
-	<li><a href="<?php echo home_url( '/' )."logistica-reversa"; ?>" class="<?php if(is_page('logistica-reversa')): echo "ativo"; endif; ?>">Logística Reversa</a></li>
-	<li><a href="<?php echo home_url( '/' )."manuseio-de-kits"; ?>" class="<?php if(is_page('manuseio-de-kits')): echo "ativo"; endif; ?>">Manuseio de Kits</a></li>
-	<li><a href="<?php echo home_url( '/' ).""; ?>" >Impressão de Dados</a></li>
-	<li><a href="<?php echo home_url( '/' )."digitalizacao-de-documentos"; ?>" class="<?php if(is_page('digitalizacao-de-documentos')): echo "ativo"; endif; ?>">Digitalização de Documentos</a></li>
-	<li><a href="<?php echo home_url( '/' )."logistica-pequenas-e-medias-empresas"; ?>" class="<?php if(is_page('logistica-pequenas-e-medias-empresas')): echo "ativo"; endif; ?>">Pequenas e Médias Empresas</a></li>
+	<li><a href="<?php echo home_url( '/' )."gerenciamento-de-obras"; ?>" class="<?php if(is_page('gerenciamento-de-obras')): echo "ativo"; endif; ?>">Gerenciamento</a></li>
+	<li><a href="<?php echo home_url( '/' )."licitacoes-de-obras"; ?>" class="<?php if(is_page('licitacoes-de-obras')): echo "ativo"; endif; ?>">Licitações</a></li>
+	<li><a href="<?php echo home_url( '/' )."realizacao-de-orcamentos"; ?>" class="<?php if(is_page('realizacao-de-orcamentos')): echo "ativo"; endif; ?>">Realização de Orçamentos</a></li>
+	<li><a href="<?php echo home_url( '/' )."execucao-de-obras"; ?>" class="<?php if(is_page('execucao-de-obras')): echo "ativo"; endif; ?>">Obras</a></li>
+	<li><a href="<?php echo home_url( '/' )."propostas-tecnicas"; ?>" class="<?php if(is_page('propostas-tecnicas')): echo "ativo"; endif; ?>">Propostas Técnicas</a></li>
+	<li><a href="<?php echo home_url( '/' ).""; ?>" >Quantificação de Obras</a></li>
 </ul>
